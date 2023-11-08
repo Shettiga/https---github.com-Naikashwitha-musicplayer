@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* Set the background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Fixed background */
+}
+
+header {
+    background-color: rgba(158, 140, 229, 0.7); /* Add a semi-transparent background */
+    color: #fff;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: space-between; /* Create space between logo, nav, and search bar */
+    padding: 10px 20px; /* Add padding on the sides */
+}
+
+.nav-links {
+    display: flex;
+    gap: 350px; /* Add space between nav items */
+    align-items: center; /* Center horizontally */
+}
+
+nav a {
+    color: #0a0909;
+    text-decoration: none;
+    margin: 0;
+    font-weight: bold;
+}
+
+.logo {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+}
+
+.main-content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: #10c9e1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow for better visibility */
+}
+
+.search-bar {
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 24px; /* Increase the font size */
+    border: none;
+    border-radius: 20px; /* Add curved border */
+    outline: none;
+    width: 300px; /* Adjust the width as needed */
+    text-align: center; /* Center text within the input */
+}
+
+button {
+    background-color: #0fe644;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px; /* Increase the font size */
+    border: none;
+    cursor: pointer;
+}
