@@ -1,20 +1,13 @@
-// JavaScript code to handle the search functionality
-const searchButton = document.getElementById("search-button");
-const searchInput = document.getElementById("search-input");
+// settings.js
 
-searchButton.addEventListener("click", function () {
-    const searchText = searchInput.value.trim(); // Remove leading and trailing whitespace
+// Function to handle the "Save Settings" button click
+function saveSettings() {
+    var username = document.getElementById("username").value;
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
+    var notifications = document.getElementById("notifications").checked;
+    var theme = document.getElementById("theme").value;
 
-    if (searchText === "") {
-        alert("Please enter a search query.");
-    } else {
-        // Replace this condition with your own search logic
-        if (searchText === "music1") {
-            alert("Music 1 found!");
-        } else if (searchText === "music2") {
-            alert("Music 2 found!");
-        } else {
-            alert("Music not found.");
-        }
-    }
-});
+    // You can save or update these settings as needed (e.g., using AJAX to send data to a server).
+    // Here, we'll just display an alert with the settings.
+    alert("Username: " + username + "\nEmail: " + email + "\nPassword: " + password + "\nReceive Notifications: "

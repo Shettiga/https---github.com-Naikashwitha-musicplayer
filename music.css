@@ -23,11 +23,12 @@ header {
     align-items: center; /* Center horizontally */
 }
 
-nav a {
+.nav-links a {
     color: #0a0909;
     text-decoration: none;
     margin: 0;
     font-weight: bold;
+    font-size: x-large;
 }
 
 .logo {
